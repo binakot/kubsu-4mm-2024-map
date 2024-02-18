@@ -1,23 +1,6 @@
-p {
-  background: black;  
-}
-
-p {
-  background: white;  
-}
-
-#title {
-    background: red;
-}
-
-#title {
-    background: orange;
-}
-
-.myclass {
-    background: green;
-}
-
-.myclass {
-    background: violet;
+body,
+html,
+#map {
+    width: 100%;
+    height: 100%;
 }
