@@ -1,5 +1,16 @@
 # KubSU 4MM 2024 Map App
 
+## Docker
+
+```bash
+$ docker build -t kubsu-4mm-2024-map .
+$ docker run --name web-app -p 443:443 -d kubsu-4mm-2024-map
+```
+
+Open: [https://localhost/?search=кубгу](https://localhost/?search=кубгу)
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
 ## Development server
